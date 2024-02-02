@@ -8,6 +8,7 @@ LIBRARY :
 
  - framer-motion (Animation)
  - heroicons (Tailwind)
+ - react-hook-form (npm i react-hook-form)
 
 
 EXTNS : 
