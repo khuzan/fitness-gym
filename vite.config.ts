@@ -6,8 +6,16 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/fitness-gym/",
   resolve: {
    alias: [{ find: "@", replacement: path.resolve(__dirname, "src")}]
   }
 })
+
+// export default defineConfig({
+//   plugins: [react()],
+//   base: "/fitness-gym/"
+// })
+
+
 
